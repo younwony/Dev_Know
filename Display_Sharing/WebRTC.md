@@ -94,9 +94,14 @@
 # 출처
 - https://juneyr.dev/webrtc-basics
 - https://www.html5rocks.com/ko/tutorials/webrtc/basics/
+<<<<<<< HEAD
 - http://html5rocksko.blogspot.com/2014/03/getting-started-with-webrtc.html
 - https://brunch.co.kr/@linecard/154
 
 # 참고
  - https://dksshddl.tistory.com/entry/webRTC-%EC%9B%B9RTC-%EC%98%88%EC%A0%9C%EB%A1%9C-%ED%99%94%EC%83%81-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
  - https://codelabs.developers.google.com/codelabs/webrtc-web/#0
+=======
+- https://brunch.co.kr/@linecard/154
+- https://codelabs.developers.google.com/codelabs/webrtc-web/#0
+>>>>>>> 7c8101f40d7ae7ac8138f5123e802c0293a519ae
