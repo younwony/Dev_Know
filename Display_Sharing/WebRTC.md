@@ -66,7 +66,7 @@
 
 - Signaling 을 성공적으로 마치면, 실제 데이터(미디어, 영상, 음성 등)는 Peer To Peer로 통신하게 된다.
 
-> - ICE 프레임워크는 기기를 발견하고 연결하기 위한 프레임 워크
+> - ICE(Interactive Connectivity Establishment) 프레임워크는 기기를 발견하고 연결하기 위한 프레임 워크
 >   1. ICE는 UDP를 통해 기기들을 서로 직접 연결시도한다.
 >       - 연결 성공 -> 미디어 교환
 >       - 연결 실패 -> NAT혹은 방화벽에 막힌상태
@@ -102,4 +102,11 @@
  - https://codelabs.developers.google.com/codelabs/webrtc-web/#0
 - https://brunch.co.kr/@linecard/154
 - https://codelabs.developers.google.com/codelabs/webrtc-web/#0
-
+- WebRTC 개념 및 사용법 - https://developer.mozilla.org/ko/docs/Web/API/WebRTC_API
+- STUN, TUN 참고 - https://alnova2.tistory.com/1110
+- ICE, STUN, TUN 정리 - https://brunch.co.kr/@linecard/156
+- WebRTC 간단 요약 - https://wecomm.tistory.com/3
+- **WebRTC 예제 및 요약본** - https://velog.io/@ehdrms2034/WebRTC-%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EB%A1%9C-%ED%99%94%EC%83%81-%EC%B1%84%ED%8C%85%EC%9D%84-%EB%A7%8C%EB%93%A4-%EC%88%98-%EC%9E%88%EB%8B%A4%EA%B3%A0
+ - **Java-WebRTC 참고(Kurento Media Server 사용)** - https://doc-kurento.readthedocs.io/en/6.9.0/tutorials/java/tutorial-magicmirror.html
+# 영상
+ - JanusServer(Signaling Server)와 WebRTC 기술 - https://www.youtube.com/watch?v=5U6QCttnazQ
