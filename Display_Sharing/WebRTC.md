@@ -98,10 +98,9 @@
 - https://brunch.co.kr/@linecard/154
 
 # 참고
- - https://dksshddl.tistory.com/entry/webRTC-%EC%9B%B9RTC-%EC%98%88%EC%A0%9C%EB%A1%9C-%ED%99%94%EC%83%81-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
- - https://codelabs.developers.google.com/codelabs/webrtc-web/#0
-- https://brunch.co.kr/@linecard/154
-- https://codelabs.developers.google.com/codelabs/webrtc-web/#0
+ - WebRTC 화상 구현 예 - https://dksshddl.tistory.com/entry/webRTC-%EC%9B%B9RTC-%EC%98%88%EC%A0%9C%EB%A1%9C-%ED%99%94%EC%83%81-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
+ - WebRTC 튜토리얼 - https://codelabs.developers.google.com/codelabs/webrtc-web/#0
+- RTP(Real-time Transport Protocol) 분석 - https://brunch.co.kr/@linecard/154
 - WebRTC 개념 및 사용법 - https://developer.mozilla.org/ko/docs/Web/API/WebRTC_API
 - STUN, TUN 참고 - https://alnova2.tistory.com/1110
 - ICE, STUN, TUN 정리 - https://brunch.co.kr/@linecard/156
