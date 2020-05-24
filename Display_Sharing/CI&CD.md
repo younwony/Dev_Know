@@ -29,3 +29,6 @@
   - MSA ,Kubernetes, CI/CD - https://medium.com/finda-tech/finda-msa%EB%A5%BC-%EC%9C%84%ED%95%9C-kubernetes-%EC%84%B8%ED%8C%85%EA%B3%BC-ci-cd-pipeline-%EA%B5%AC%EC%84%B1-%EA%B7%B8%EB%A6%AC%EA%B3%A0-monitoring-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95-1-783bf49af15b
 
   - Jenkins vs .GitLab - https://about.gitlab.com/devops-tools/jenkins-vs-gitlab.html
+  
+  - Gitlab-CI - https://lovemewithoutall.github.io/it/deploy-example-by-gitlab-ci/
+  - Gitlab-CI Runner 소개 예제 - https://allroundplaying.tistory.com/21
