@@ -11,9 +11,5 @@
 
  ## 참고
 
-<<<<<<< HEAD
+  ttps://github.com/voyagerwoo/docker-hands-on
   - 만들면서 이해하는 도커 이미지 구조 - https://www.44bits.io/ko/post/how-docker-image-work
-=======
-  - 개발자를 위한 도커 입문 - https://github.com/voyagerwoo/docker-hands-on
-  - 만들면서 이해하는 도커 이미지 구조 - https://www.44bits.io/ko/post/how-docker-image-work
->>>>>>> f618c83d838aa33f779edf19f7c302dcbb875bc2
