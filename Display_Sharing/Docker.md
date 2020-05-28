@@ -9,3 +9,5 @@
   - 도커란 - https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html
 
  ## 참고
+
+  - 만들면서 이해하는 도커 이미지 구조 - https://www.44bits.io/ko/post/how-docker-image-work
