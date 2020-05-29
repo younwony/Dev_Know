@@ -3,7 +3,7 @@
 ## WebRTC
 
  - 200601 ~ 200607 - 개발환경 세팅
-    - InteliJ
+    - IntelliJ
     - SpringBoot
     - Vue
     - Vue Templete
