@@ -15,18 +15,21 @@
 ## CI/CD Tool 비교
 
  ### 1. Travis CI
- - 구동 환경 : Cloud
- - AWS 내 배포가능 서비스
-   1. CodeDeploy
-   1. Elastic Beanstalk
-   1. Lambda
-   1. OpsWorks
-   1. S3
- - 가격
-   - 무료 : Open Source Project만
-   - 유료 : 69 USD/Month : 한번에 한개의 Job만 수행가능
+ 
+  - 구동 환경 : Cloud
+  - AWS 내 배포가능 서비스
+    1. CodeDeploy
+    1. Elastic Beanstalk
+    1. Lambda
+    1. OpsWorks
+    1. S3
+  - 가격
+    - 무료 : Open Source Project만
+    - 유료 : 69 USD/Month : 한번에 한개의 Job만 수행가능
 
- ### 1. CircleCI
+ ### 2. CircleCI
+ ### 3. 
+ ### 4. 
 
 
 ## 출처
