@@ -1,0 +1,66 @@
+/* 프로젝트의 플러그인 의존성 관리를 위한 설정
+*
+*
+*   ext : build.gradle에서 사용하는 전역변수를 설정하겠다는 의미로, 여기서는 springBootVersion 전역변수를 생성하고 그 값을 '2.1.7.RELEASE'로 하겠다는 의미
+*        즉, spring-boot-gradle-plugin라는 스프링 부트 그레이들 플러그인의 2.1.7.RELEASE를 의존성으로 받겠다는 의미
+*
+* */
+buildscript {
+    ext{
+        springBootVersion = '2.1.7.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+/* 위에서 선언한 플러그인 의존성들을 적용할 것인지를 결정하는 코드
+*   io.spring.dependency-management : 해당 플러그인은 스프링 부트의 의존성들을 관리해 주는 플러그인이라 꼭 추가해야한다.
+*   아래의 4개 플러기은은 자바와 스프링 부트를 사용하기 위해서는 필수 플러그인들이니 항상 추가하면 된다.
+*
+* */
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+/* 기본 세팅 Start */
+/* 위의 플러그인 설정으로 아래 충돌나서 주석처리
+plugins {
+    id 'java'
+}
+*/
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+
+/* repositories는 각종 의존성(라이브러리)들을 어떤 원격 저장소에서 받을 지를 정한다.
+*  기본적으로 mavenCentral을 많이 사용하지만, 최근에는 라이브러리 업로드 난이도 때문에 jcenter도 많이 사용한다.
+*  jcenter에 라이브러리를 업로드 하면 mavenCentral에도 업로드될 수 있도록 자동화를 할 수 있다.
+*  현재 추세로는 개발자들의 라이브러리가 jcenter로 이동하고 있다. 해당 프로젝트에서는 두가지 모두 사용한다.
+* */
+repositories {
+    mavenCentral()
+//    jcenter() /* 추가 사항*/
+}
+
+/* dependencies는 프로젝트 개발에 필요한 의존성들을 선언하는 곳이다.
+*  org.springframework.boot:spring-boot-starter-web, org.springframework.boot:spring-boot-starter-test를 받도록 선언되 있다.
+*  인텔리 제이는 메이븐 저장소의 데이터를 인덱싱해서 관리하기 때문에 커뮤니티 버전에서도 의존성 자동완성이 가능하다.
+*  * 특정 버전을 명시하면 안된다. 버전을 명시하지 않아야 위에서 작성한 org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion} 버전을 따라간다.
+* */
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')/* 추가 사항 */
+    compile('org.projectlombok:lombok') /* lombok 추가 사항 */
+    testCompile('org.springframework.boot:spring-boot-starter-test') /* 추가 사항 */
+    /* 삭제 사항
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    */
+}
+/* 기본 세팅 End */
+
